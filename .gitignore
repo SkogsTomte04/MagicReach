@@ -1,1 +1,6 @@
 debug.log
+dataset\val\
+dataset\train\
+dataset\raw\
+yolo_env
+runs\detect\predict2
