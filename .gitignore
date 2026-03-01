@@ -4,3 +4,4 @@ dataset\train\
 dataset
 yolo_env
 runs\detect\predict2
+runs\detect\predict
