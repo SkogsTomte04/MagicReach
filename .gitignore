@@ -1,7 +1,4 @@
 debug.log
-dataset\val\
-dataset\train\
 dataset
 yolo_env
-runs\detect\predict2
-runs\detect\predict
+runs/detect/predict
