@@ -18,3 +18,6 @@ corrected most frames by hand then trained the yolo8 model for 50 epochs on the 
 
 trianing cli:
 yolo detect train data=dataset\data.yaml model=yolov8n.pt imgsz=512 epochs=20
+
+prediction:
+yolo detect predict model=runs\detect\train\weights\best.pt source=dataset\valid\images save=True conf=0.5 save_txt=True save_conf=False
